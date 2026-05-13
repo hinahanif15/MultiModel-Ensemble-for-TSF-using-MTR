@@ -51,7 +51,7 @@ The proposed approach consists of:
 <li>Build hierarchical clusters using C4.5</li>
 <li>Extract target-specific features</li>
 <li>Train ensemble regressors</li>
-Evaluate model performance using aRRMSE</li>
+<li>Evaluate model performance using aRRMSE</li>
 </ol>
 
 ## Datasets
@@ -59,11 +59,13 @@ The project was evaluated on:
 <ul>
   <li>OES97 Dataset</li>
 <li>OES10 Dataset</li>
-<li></li>
-  <li></li>
+<li>Andro Dataset</li>
+  <li>ATPID Dataset</li>
    </ul>
 
 ## Usage
 
 Run the main training script:
+```python
 python main.py
+```
